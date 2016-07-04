@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Building.js">
+    <Files>
+      <File FileName="Assets\Scripts\Building.js" Line="48" Column="78" />
+      <File FileName="Assets\Scripts\PickUp.js" Line="302" Column="79" />
+      <File FileName="Assets\Scripts\Crosshair.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Drag Selector.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Map.js" Line="65" Column="80" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

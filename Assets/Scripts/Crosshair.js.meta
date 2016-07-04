@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f883d2e94da32e14c85fc8a86247efb3
+timeCreated: 1430762697
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - hand: {instanceID: 0}
+  - crosshairTexture: {instanceID: 0}
+  - crosshairInteractTexture: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnescoProject.CSharp.Plugins", "UnescoProject.CSharp.Plugins.csproj", "{9078C54C-B6EB-8D6D-F691-5318C449A5A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnescoProject.CSharp.Editor", "UnescoProject.CSharp.Editor.csproj", "{56C2F440-457F-8999-0E98-5298AA19D792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9078C54C-B6EB-8D6D-F691-5318C449A5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9078C54C-B6EB-8D6D-F691-5318C449A5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9078C54C-B6EB-8D6D-F691-5318C449A5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9078C54C-B6EB-8D6D-F691-5318C449A5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C2F440-457F-8999-0E98-5298AA19D792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C2F440-457F-8999-0E98-5298AA19D792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C2F440-457F-8999-0E98-5298AA19D792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C2F440-457F-8999-0E98-5298AA19D792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
