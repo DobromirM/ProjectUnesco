@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poject Unesco.CSharp.Plugins", "Poject Unesco.CSharp.Plugins.csproj", "{0BC1160F-E1F6-0B4A-6F47-DD5734D63BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poject Unesco.CSharp.Editor", "Poject Unesco.CSharp.Editor.csproj", "{4F1E9089-044C-9B02-0BD5-247BB96DDA23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC1160F-E1F6-0B4A-6F47-DD5734D63BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC1160F-E1F6-0B4A-6F47-DD5734D63BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC1160F-E1F6-0B4A-6F47-DD5734D63BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC1160F-E1F6-0B4A-6F47-DD5734D63BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1E9089-044C-9B02-0BD5-247BB96DDA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1E9089-044C-9B02-0BD5-247BB96DDA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1E9089-044C-9B02-0BD5-247BB96DDA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1E9089-044C-9B02-0BD5-247BB96DDA23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
