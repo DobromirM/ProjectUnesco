@@ -18,6 +18,9 @@ var rightItems : Transform[];
 //Textures for the items in the inventory
 var rightItemsTextures : Texture2D[];
 
+//Texture for the scroll
+var scrollTexture : Texture2D; 
+
 //Main Camera
 var myCamera : Transform;
 
@@ -26,6 +29,9 @@ private var itemInHand : Transform;
 
 //Check if item should be put in inventory
 private var putInInventory = false;
+
+//Check if should show scrolls
+private var showScroll = false;
 
 //Number of items in inventory
 private var itemIndex = 0;
@@ -115,7 +121,7 @@ if(inventory != null) {
 		}
 	}
 
-
+    //This is shit
 	var m1 = 0;
 	if(wholevase || wholeplate || wholeneclace) {
 
@@ -178,10 +184,10 @@ function Update () {
 		timeString = Map.minutes + ":" + parseInt(Map.timer);
 	}
 			
-	    /*
-         *      KEY BINDINGS
-         *
-         */
+	    /*                        *
+         *      KEY BINDINGS      *
+         *                        *
+         *                        */      
 
     //Check for item in hand 
 	if(hand.transform.childCount == 1) {
@@ -191,7 +197,17 @@ function Update () {
      	 putInInventory = true; 	 
 	    }
 
-    }
+        if(Input.GetKey(KeyCode.R)) {
+         showScroll = true;
+	    }
+
+	}
+
+    if(hand.transform.childCount == 0) {
+    showScroll = false;
+	}
+
+	
     
     //Return to Map - ESC
     if(Input.GetKey(KeyCode.Escape)) {
@@ -463,6 +479,22 @@ function FixedUpdate () {
 }
 
 function OnGUI() {
+        
+    //Font size
+    GUI.skin.label.fontSize = 35;
+    //Font color
+    GUI.skin.label.normal.textColor= Color.black;
+    
+    if(showScroll) {
+        GUI.DrawTexture(Rect(Screen.width/1.85, 0, Screen.width/2, Screen.height), scrollTexture, ScaleMode.StretchToFill, true, 10.0F);
+        GUI.Label(Rect(Screen.width/1.6, Screen.height/4, Screen.width/3, Screen.height/2), "We're no strangers to love You know the rules and so do I A full commitment's what I'm thinking of You wouldn't get this from any other guy I just wanna tell you how I'm feeling Gotta make you understand Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you");
+    }
+
+    //Font size
+    GUI.skin.label.fontSize = 50;
+    //Font color
+    GUI.skin.label.normal.textColor= Color.red;
+
 		 var temp = itemIndex;	
 		 if(showInventory) {
 		 	GUI.Box(Rect(Screen.width/2 - Screen.height/1.6 ,Screen.height - Screen.height/10,Screen.height/10,Screen.height/10),"1");	
