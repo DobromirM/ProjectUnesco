@@ -10,6 +10,9 @@ var right: Texture;
 //Texture for wrong tomb
 var wrong: Texture;
 
+//Texture for basilica
+var basilica: Texture;
+
 //Texture for 'Enter' button
 var enter : Texture;
 
@@ -68,6 +71,11 @@ function OnGUI() {
 	if (GUI.Button(Rect(Screen.width/2.5,Screen.height/1.6,50,50), btnTexture, GUIStyle.none)) {
 		show = 2;
 	}
+
+    //Button for basilica
+	if (GUI.Button(Rect(Screen.width/2,Screen.height/1.2,50,50), btnTexture, GUIStyle.none)) {
+	    show = 3;
+	}
 		
 
 	switch(show) {
@@ -92,7 +100,18 @@ function OnGUI() {
 				}
 
 				break;
+
+	    //Action for basilica button
+	    case 3: GUI.Box(Rect(Screen.width - Screen.width/5,0,Screen.width/5,Screen.height/3), basilica, GUIStyle.none);
+
+	        if(GUI.Button(Rect(Screen.width - Screen.width/6.8,Screen.width/6.8,Screen.width/10,Screen.height/10), enter, GUIStyle.none)) {
+	            DontDestroyOnLoad (inventory); 
+	            Application.LoadLevel("Place3");
+	        }
+
+	        break;
 	 	}
+
 	 	
 	 	
         //Timer Position
